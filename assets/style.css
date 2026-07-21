@@ -66,4 +66,16 @@ a{color:inherit;text-decoration:none}
 .prose h2{font-family:"Cormorant Garamond";font-size:28px;margin-top:40px}
 .prose p{color:#2b2b2b}
 .legal{font-size:14px;color:var(--ink-2)} .legal a{text-decoration:underline}
+/* Premium legal extensions */
+.prose blockquote{border-left:3px solid var(--gold);margin:24px 0;padding:18px 22px;background:#FFFDFA;border-radius:0 14px 14px 0;font-size:15px;line-height:1.7;color:var(--ink)}
+.prose h3{font-family:"Cormorant Garamond";font-size:22px;margin:28px 0 8px}
+.prose table{width:100%;border-collapse:collapse;margin:18px 0}
+.prose th{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+.prose td{padding:10px 8px;border-bottom:1px solid #F2EBDF;font-size:14px;color:#2b2b2b;vertical-align:top}
+.badge-gold{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:100px;background:#FFF6E5;border:1px solid #E8D5B0;color:#6B4A1E;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.highlight-box{background:linear-gradient(135deg,#FFFCF8 0%,#FFF7E8 100%);border:1px solid #EADFC9;border-radius:16px;padding:22px 24px;margin:20px 0}
+.toc{display:flex;flex-direction:column;gap:8px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:#FFFDFA}
+.toc a{font-size:13px;color:var(--ink-2)} .toc a:hover{color:var(--ink);text-decoration:underline}
+.legal-hero{padding:64px 0 28px;border-bottom:1px solid var(--line);margin-bottom:32px}
+.legal-hero h1{font-family:"Cormorant Garamond";font-size:clamp(36px,5vw,56px);line-height:.95;margin:12px 0}
 @media(max-width:980px){.hero{grid-template-columns:1fr}.hero-visual{aspect-ratio:16/10}.grid-3,.grid-2{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.news-item{grid-template-columns:1fr}}
